@@ -1,0 +1,134 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Jose Alberto Trejo Serrano
+  headline: Ingeniero de Software Senior / Staff — Backend, Arquitectura y Liderazgo Técnico
+  location: México
+  email: joseatrejos@gmail.com
+  website: https://www.ludensproductions.com
+  social_networks:
+    - network: GitHub
+      username: joseatrejos
+    - network: LinkedIn
+      username: joseatrejos
+
+  sections:
+    summary:
+      - Ingeniero de Software Senior con más de 8 años de experiencia construyendo y escalando sistemas comerciales y de grado gubernamental.
+      - Sólida experiencia en arquitectura backend, diseño de bases de datos, optimización de sistemas y liderazgo técnico.
+      - Capacidad comprobada para liderar grandes equipos de ingeniería, definir procesos y entregar software complejo en entornos de alta presión.
+      - Experiencia conectando la ejecución técnica con restricciones de negocio en contextos regulados y de alto riesgo.
+
+    experience:
+      - company: Issirmax
+        position: Engineering Manager
+        start_date: 2023-12
+        end_date: present
+        location: México
+        summary: Liderazgo técnico para una fábrica de software que provee sistemas gubernamentales a gran escala.
+        highlights:
+          - Contraté, capacité y lideré 30 roles técnicos distribuidos en varios equipos multifuncionales responsables de la definición de requerimientos, desarrollo de sistemas frontend y backend, CI/CD y despliegues, integraciones y arquitectura de datos.
+          - Dirigí el desarrollo de hasta 7 programas de software concurrentes bajo estrictas regulaciones y plazos de entrega agresivos.
+          - Lideré rediseños de esquemas de base de datos orientados a escalabilidad y auditabilidad a largo plazo.
+          - Diseñé y desarrollé frameworks backend basados en Django, contribuyendo directamente a una reducción del 45% en el tiempo de entrega de funcionalidades.
+          - Dirigí el desarrollo de frameworks internos basados en Cypress y Playwright, reduciendo en un 45% el tiempo necesario para el diseño y automatización de pruebas.
+          - Implementé un flujo de trabajo con VPN Pangolin que redujo la cantidad de servidores necesarios para capacitación DevOps de treinta a uno.
+          - Definí contratos de APIs y límites de sistemas entre proyectos.
+          - Diseñé soluciones que incluyen hardware electrónico como PLCs para control de accesos y cámaras para el registro fotográfico de vehículos.
+          - Participé en el desarrollo de un Centro de Operaciones de Red (NOC) desplegado en 50 ubicaciones con redes LAN restringidas.
+          - Diseñé sistemas donde solicitudes síncronas disparan pipelines asíncronos, utilizando workers en segundo plano para desacoplar la latencia de usuario del procesamiento pesado.
+          - Implementé SSO OAuth2 en todas las plataformas desarrolladas internamente.
+          - Implementé un proceso de mesa de ayuda con niveles de soporte y SLAs para contratos de soporte al cliente, además de capacitar a los agentes.
+          - Obtuve CMMI nivel 3, ISO 9001, ISO 20001, ISO 22301 e ISO 27001, habilitando certificaciones organizacionales, flujos de trabajo estandarizados y mejores contratos empresariales.
+
+      - company: Ludens Productions
+        position: Arquitecto / Líder Técnico
+        start_date: 2019-06
+        end_date: 2023-08
+        location: México
+        summary: Lideré la arquitectura, entrega y excelencia operativa de una fábrica de software para clientes privados y gubernamentales.
+        highlights:
+          - Lideré a 65 ingenieros de backend, frontend, QA y DevOps.
+          - Diseñé e implementé procesos de desarrollo de software a nivel compañía, alcanzando madurez CMMI Nivel 1.
+          - Actué como arquitecto hands-on para sistemas web en Django y FastAPI que soportaban flujos críticos.
+          - Supervisé la entrega y mantenimiento de más de 40 proyectos activos con soporte de mesa de ayuda a largo plazo.
+          - Participé directamente en el levantamiento de requerimientos con stakeholders y tomadores de decisión.
+          - Traduje requerimientos de negocio y regulaciones gubernamentales extremadamente complejas en diseños técnicos claros y planes de ejecución.
+          - Optimicé flujos de desarrollo y entrega, reduciendo ineficiencias operativas y mejorando la predictibilidad.
+          - Diseñé, construí y entregué un MVP para monitoreo de infraestructura eléctrica en menos de un mes.
+          - Diseñé y lideré el desarrollo de una aplicación móvil en Flutter para elecciones políticas en el estado de Sonora.
+          - Definí, arquitecté y lideré una aplicación móvil en Flutter utilizada para enviar recetas médicas a pacientes.
+          - Proveí servicios de consultoría al ayuntamiento de Puerto Peñasco para mejorar sus recursos tecnológicos, implementar un ERP moderno, suites de comunicación y colaboración, sistemas de gestión documental, entre otros.
+
+      - company: Pixelbot
+        position: Backend Developer
+        start_date: 2019-01
+        end_date: 2019-06
+        location: México
+        summary: Optimización backend e integración de sistemas para plataformas de comercio electrónico.
+        highlights:
+          - Construí y optimicé una integración en PHP entre Shopify y un ERP de escritorio legado.
+          - Reduje el tiempo de ejecución de sincronización en un 83% (de 5 minutos a ~50 segundos).
+          - Permití la expansión de ventas en línea del cliente, representando aproximadamente el 25% de los ingresos nacionales.
+          - Trabajé en la optimización de una aplicación de trading bursátil en tiempo real construida con WebSockets en NodeJS.
+
+      - company: Ludens Productions
+        position: Ingeniero Fullstack
+        start_date: 2017-01
+        end_date: 2019-01
+        location: México
+        summary: Comencé como desarrollador de software freelance.
+        highlights:
+          - Desarrollé y desplegué el sitio web de la empresa.
+          - Participé activamente en la certificación ISO 9001.
+          - Desarrollé un sitio web que automatizaba el onboarding del área de RH en Novutek.
+          - Desarrollé y desplegué un tour interactivo 3D para Preparatoria La Salle en Ciudad Obregón, Sonora.
+          - Desarrollé un prototipo de aplicación LMS en Java para teléfonos Android.
+
+    education:
+      - institution: Universidad La Salle Noroeste
+        degree: BEng
+        area: Ingeniería de Software / Sistemas Digitales
+        start_date: 2016-08
+        end_date: 2021-05
+        location: México
+        highlights:
+          - Formación multidisciplinaria en ingeniería de software, UI/UX, desarrollo móvil y gestión ágil de proyectos.
+          - Sólida base en metodologías ágiles y diseño de sistemas.
+          - Fuerte enfoque en liderazgo de equipos y trabajo colaborativo durante actividades extracurriculares.
+
+    certifications:
+      - bullet: CMMI Nivel 3 (Implementación de Procesos, Assessment, Appraisal y Certified Associate).
+      - bullet: Contribuidor en ISO 9001, ISO 20001 e ISO 27001.
+      - bullet: Certificado en SCRUM Foundations y SCRUM Developer.
+      - bullet: Certificado en ITIL Foundations v4.
+      - bullet: Lean Six Sigma White Belt
+      - bullet: Ethical Hacking Certified Associate
+
+    skills:
+      - label: Backend
+        details: Python, Django, FastAPI, PHP (Laravel).
+      - label: Arquitectura
+        details: Diseño de sistemas, diseño de APIs, modelado de bases de datos, optimización de rendimiento.
+      - label: Bases de datos
+        details: PostgreSQL, MySQL, optimización SQL, Firebase.
+      - label: Liderazgo
+        details: Liderazgo técnico, diseño de procesos, mentoría, coordinación entre equipos.
+      - label: Herramientas
+        details: Git, conceptos de CI/CD en Jenkins, Agile/Scrum, Kanban, ITIL 4.
+
+    languages:
+      - label: Español
+        details: Nativo
+      - label: Inglés
+        details: Competencia profesional
+      - label: Francés
+        details: Intermedio (B1)
+
+design:
+  theme: classic
+
+locale:
+  language: spanish
+
+settings:
+  current_date: '2026-01-03'
