@@ -1,10 +1,11 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
   name: Jose Alberto Trejo
-  headline: Senior / Staff Software Engineer — Backend, Architecture & Technical Leadership
-  location: Mexico
+  headline: Engineering Manager — Backend, Architecture & Technical Leadership
+  location: Hermosillo, Sonora, Mexico
+  phone: "+526622971893"
   email: joseatrejos@gmail.com
-  website: https://www.ludensproductions.com
+  #website: https://www.ludensproductions.com
   social_networks:
     - network: GitHub
       username: joseatrejos
@@ -12,13 +13,23 @@ cv:
       username: joseatrejos
 
   sections:
-    summary:
-      - Senior Software Engineer with 8+ years of experience building and scaling commercial and government-grade systems.
-      - Strong background in backend architecture, database design, system optimization, and technical leadership.
-      - Proven ability to lead large engineering teams, define processes, and deliver complex software under high-pressure environments.
-      - Experienced bridging technical execution with business constraints in regulated and high-stakes contexts.
 
-    experience:
+    professional_summary:
+      - Seasoned Engineering Manager with 8+ years of experience designing, building, and scaling commercial & government-grade systems from concept to production under high-pressure conditions. 
+      - Expert at aligning technical execution with business objectives by balancing architecture, operational requirements, compliance, and risk management to optimize delivery speed. Operational excellence is achieved through cross-functional leadership, stakeholder management, as well as the establishment of Lean-Agile delivery processes and robust automated governance.
+      - Proven technical leader with a track record of mentoring large, diverse engineering teams, fostering collaborative cultures, maintaining high quality standards, and translating complex technical concepts into clear, actionable insights for both technical and non-technical stakeholders.
+      #- Seasoned Engineering Manager and Senior Software Engineer with 8+ years of experience delivering scalable, mission-critical systems for commercial and government organizations. Strong expertise in backend architecture, database design, system optimization, and technical governance in regulated environments.
+      #- Experienced in leading cross-functional engineering teams, establishing efficient delivery processes, and managing complex programs under high-pressure conditions. Skilled at aligning technical strategy with business objectives, balancing risk, compliance, and delivery speed.
+      #- Clear communicator and pragmatic problem solver, capable of translating technical complexity into business-relevant decisions for executives and non-technical stakeholders. Known for driving operational excellence, building high-performing teams, and ensuring consistent, high-quality execution across projects.
+
+#    key_achievements:
+#      - bullet: Directed development of Cypress and Playwright based internal frameworks, directly contributing to a 50% reduction of the time needed for test design and automation.
+#      - bullet: Architected and developed Django-based backend frameworks, reducing feature delivery time in 40%.
+#      - bullet: Automated governance insights, ensuring efficient resource allocation and workflow optimization.
+#      - bullet: Configured observability systems for the company's governed inputs and metrics.
+#      - bullet: Established team structure, role definitions, and delivery ownership models between teams.
+
+    work_history:
       - company: Issirmax
         position: Engineering Manager
         start_date: 2023-12
@@ -26,19 +37,24 @@ cv:
         location: Mexico
         summary: Technical leadership for a software factory providing large-scale government systems.
         highlights:
-          - Hired, trained and led 30 technical roles spread among several cross-functional teams responsible for requirements' definition, development of frontend & backend systems, CI/CD & deployments, integrations, and data architecture.
-          - Directed development of up to 7 concurrent software programs under strict regulatory and aggresvise timelines' delivery constraints.
-          - Led database schema redesigns supporting long-term scalability and auditability.
+          - Owned engineering hiring, onboarding, performance feedback, and career development of 30 technical roles across multiple teams.
+          - Established team structure, role definitions, and delivery ownership models between teams.
+          - Acted as primary technical and delivery escalation point for stakeholders.
+          - Defined and enforced engineering standards, coding guidelines, and architectural governance.
+          - Managed delivery risk, scope control, and dependency coordination in every project.
+          - Automated governance insights, ensuring efficient resource allocation and workflow optimization.
+          - Configured observability systems for the company's governed inputs and KPIs.
+          - Partnered with product and leadership to prioritize roadmaps and allocate engineering capacity.
+          - Led database schema redesigns supporting long-term scalability and maintainability.
           - Architected and developed Django-based backend frameworks, directly contributing to a 45% reduction in feature delivery time.
           - Directed development of Cypress and Playwright based internal frameworks, which reduced the time needed for tests' design and automation by 45%.
-          - Implemented a Pangolin VPN workflow to reduce the amount of servers needed for the DevOps training process from thirty to just one.
+          - Implemented a Pangolin VPN workflow to reduce the amount of servers needed for the DevOps training process from 30 to just one.
           - Defined API contracts and systems' boundaries across projects.
-          - Architected solutions including electronics hardware such as PLCs for gate control and cameras for photographic record of passing vehicles.
-          - Worked in the development of a Network Operating Center implementation across 50 Local Area Network restricted locations.
-          - Designed systems where synchronous requests trigger asynchronous pipelines, using background workers to decouple user-facing latency from heavy processing.
-          - Implemented OAuth2 SSO in all internally developed platforms.
-          - Setup a tiered helpdesk support process and SLAs for client support contracts, and also trained the helpdesk agents.
-          - Obtained CMMI level 3, ISO 9001, ISO 20001, ISO 22301 and ISO 27001, providing organization-level certifications, standardized workflows, and enabling better company contracts.
+          - Designed solutions including electronics hardware such as PLCs for gate control and cameras for photographic record of passing vehicles.
+          - Worked in the development of a Network Operations Center implementation across 50 Local Area Network restricted locations.
+          #- Implemented OAuth2 SSO in all internal platforms.
+          - Trained personnel, defined support process and setup a 24/7 helpdesk service with tiered support levels and SLAs.
+          - Obtained CMMI level 3, ISO 9001, ISO 20001, ISO 22301 and ISO 27001, providing organization-level certifications, standardizing workflows, and enabling better company contracts.
 
       - company: Ludens Productions
         position: Architect / Technical Lead
@@ -48,16 +64,18 @@ cv:
         summary: Led architecture, delivery, and operational excellence for a software factory serving private and government clients.
         highlights:
           - Led 65 engineers from backend, frontend, QA, and DevOps teams.
-          - Designed and implemented company-wide software development processes, achieving CMMI Level 1 maturity.
+          - Defined company-wide software development processes, achieving CMMI Level 1 maturity.
+          - Designed asynchronous processing pipelines using background workers and message-based workflows to decouple users-facing latency from heavy backend processing.
           - Acted as hands-on architect for Django and FastAPI web systems serving mission-critical workflows.
           - Oversaw delivery and maintenance of 40+ active software projects with long-term helpdesk support.
           - Participated directly in requirements gathering with stakeholders and decision-makers.
-          - Translated extremly complex business and governmental regulatory requirements into clear technical designs and execution plans.
+          - Translated extremely complex business and governmental regulatory requirements into clear technical designs and execution plans.
           - Optimized development and delivery workflows, reducing operational inefficiencies and improving predictability.
-          - Designed, built and delivered a MVP software for monitoring electrical infrastructure in under one month.
-          - Designed and spearheaded the development of a Flutter mobile application for the political elections in the state of Sonora.
-          - Defined, architected, and led a Flutter mobile application used to send doctor's recipes to their patients.
-          - Provided consultancy services to Puerto Peñasco's city hall in order to improve their technological resources, implement a modern ERP, a communications and collaboration suite, document management systems, etc...
+          - Executed discovery, construction and delivery of a software for electrical infrastructure monitoring in under one month.
+          - Spearheaded the sale, definition, and development of a Flutter mobile application for political elections in the state of Sonora.
+          - Architected and led a Flutter mobile application used to send doctor's recipes to their patients.
+          - Supported budget efficiency initiatives through architectural optimization and tooling improvements.
+          - Provided consultancy services to Rocky Point's city hall; after an analysis of their technological resources, an optimization plan was conceived and infrastructure costs were reduced by 40%.
 
       - company: Pixelbot
         position: Backend Developer
@@ -69,7 +87,7 @@ cv:
           - Built and optimized a PHP-based integration between Shopify and a legacy desktop ERP system.
           - Reduced synchronization execution time by 83% (from 5 minutes to ~50 seconds).
           - Enabled the client to expand online sales, representing ~25% of total countrywide revenue.
-          - Worked in the optimization of a realtime Stocks Trading application built with websockets in NodeJS.
+          - Worked in the optimization of a realtime stocks trading application as well as in the display of said data in web charts.
 
       - company: Ludens Productions
         position: Fullstack Engineer
@@ -78,21 +96,21 @@ cv:
         location: Mexico
         summary: Started out as a freelance software developer.
         highlights:
-          - Developed and deployed the company website.
+          - Coded and deployed the company website.
           - Actively articipated in the ISO 9001 certification.
           - Developed a website that automated the onboarding provided by HR in Novutek.
-          - Developed and deployed a 3D interactive tour for Preparatoria La Salle in Ciudad Obregón, Sonora.
+          - Coded and deployed a 3D interactive tour for La Salle Institute in Sonora.
           - Developed a prototype LMS application in Java for Android phones.
 
     education:
       - institution: Universidad La Salle Noroeste
-        degree: BEng
-        area: Software Engineering / Digital Systems
+        degree: Bachelor's Degree
+        area: Software Engineering
         start_date: 2016-08
         end_date: 2021-05
-        location: Mexico
+        location: México
         highlights:
-          - Multidisciplinary training in software engineering, UI/UX, mobile development, and agile project management.
+          - Multidisciplinary training in software engineering, UI/UX, mobile development, agile project management & media production.
           - Strong foundation in agile methodologies and system design.
           - Exceptional focus on leading teams and achieveing great teamwork during extracurricular activities.
 
@@ -101,20 +119,24 @@ cv:
       - bullet: ISO 9001, ISO 20001 and ISO 27001 contributor.
       - bullet: SCRUM Foundations & SCRUM Developer certified.
       - bullet: ITIL Foundations v4 certified.
-      - bullet: Lean Six Sigma White Belt
-      - bullet: Ethical Hacking Certified Associate
+      - bullet: Ethical Hacking Certified Associate.
+      - bullet: Lean Six Sigma White Belt.
 
     skills:
-      - label: Backend
+      - label: Backend Languages
         details: Python, Django, FastAPI, PHP (Laravel).
+      - label: Infrastructure
+        details: Caddy, ubuntu server, CI/CD concepts in Jenkins, observability & monitoring.
+      - label: Engineering Management
+        details: Agile, Scrum, Kanban, ITIL 4, process design & optimization.
+      - label: Leadership skills
+        details: Technical leadership, mentoring, cross-team building, strategic planning.
       - label: Architecture
-        details: System design, API design, database modeling, performance optimization.
+        details: System design, API contract definition, database modeling, performance optimization.
       - label: Databases
-        details: PostgreSQL, MySQL, SQL optimization, firebase.
-      - label: Leadership
-        details: Technical leadership, process design, mentoring, cross-team coordination.
+        details: PostgreSQL, MySQL, SQL optimization, Firebase.
       - label: Tooling
-        details: Git, CI/CD concepts in Jenkins, Agile/Scrum, Kanban, ITIL 4.
+        details: Git, Postman/Hoppscotch, Pangolin VPN, Tabby.sh
 
     languages:
       - label: Spanish
@@ -125,10 +147,11 @@ cv:
         details: Intermediate (B1)
 
 design:
-  theme: classic
+  theme: engineeringclassic
 
 locale:
   language: english
 
 settings:
-  current_date: '2026-01-03'
+  current_date: '2026-01-04'
+  bold_keywords: []
