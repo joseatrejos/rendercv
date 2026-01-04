@@ -46,8 +46,8 @@ cv:
           - Configured observability systems for the company's governed inputs and KPIs.
           - Partnered with product and leadership to prioritize roadmaps and allocate engineering capacity.
           - Led database schema redesigns supporting long-term scalability and maintainability.
-          - Architected and developed Django-based backend frameworks, directly contributing to a 45% reduction in feature delivery time.
-          - Directed development of Cypress and Playwright based internal frameworks, which reduced the time needed for tests' design and automation by 45%.
+          - Architected and developed Django-based backend frameworks, directly contributing to a 40% reduction in feature delivery time.
+          - Directed development of Cypress and Playwright based internal frameworks, which reduced the time needed for tests' design and automation by 50%.
           - Implemented a Pangolin VPN workflow to reduce the amount of servers needed for the DevOps training process from 30 to just one.
           - Defined API contracts and systems' boundaries across projects.
           - Designed solutions including electronics hardware such as PLCs for gate control and cameras for photographic record of passing vehicles.
@@ -57,7 +57,7 @@ cv:
           - Obtained CMMI level 3, ISO 9001, ISO 20001, ISO 22301 and ISO 27001, providing organization-level certifications, standardizing workflows, and enabling better company contracts.
 
       - company: Ludens Productions
-        position: Architect / Technical Lead
+        position: Technical Architect & Project Manager
         start_date: 2019-06
         end_date: 2023-08
         location: Mexico
