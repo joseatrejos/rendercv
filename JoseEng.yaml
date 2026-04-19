@@ -15,7 +15,7 @@ cv:
   sections:
 
     professional_summary:
-      - Seasoned Engineering Manager with 8+ years of experience designing, building, and scaling commercial & government-grade systems from concept to production under high-pressure conditions. 
+      - Seasoned Engineering leader with 9 years of experience specializing in designing & scaling distributed systems from concept to production and transforming organizational processes through data-driven governance, achieving national-scale deployments and enterprise-level certifications.
       - Expert at aligning technical execution with business objectives by balancing architecture, operational requirements, compliance, and risk management to optimize delivery speed. Operational excellence is achieved through cross-functional leadership, stakeholder management, as well as the establishment of Lean-Agile delivery processes and robust automated governance.
       - Proven technical leader with a track record of mentoring large, diverse engineering teams, fostering collaborative cultures, maintaining high quality standards, and translating complex technical concepts into clear, actionable insights for both technical and non-technical stakeholders.
       #- Seasoned Engineering Manager and Senior Software Engineer with 8+ years of experience delivering scalable, mission-critical systems for commercial and government organizations. Strong expertise in backend architecture, database design, system optimization, and technical governance in regulated environments.
@@ -35,26 +35,22 @@ cv:
         start_date: 2023-12
         end_date: present
         location: Mexico
-        summary: Technical leadership for a software factory providing large-scale government systems.
+        summary: Technical & business leadership for a software factory providing large-scale government systems.
         highlights:
-          - Owned engineering hiring, onboarding, performance feedback, and career development of 30 technical roles across multiple teams.
-          - Established team structure, role definitions, and delivery ownership models between teams.
-          - Acted as primary technical and delivery escalation point for stakeholders.
-          - Defined and enforced engineering standards, coding guidelines, and architectural governance.
+          - Bootstrapped a fully operational software factory with near-zero tooling cost by leveraging open-source platforms, eliminating dependency on proprietary solutions.
+          - Built and operationalized cost models across engineering operations (personnel, infrastructure, vendors), enabling P&L-driven decision making and defining revenue targets required for sustainable growth.
+          - Established organization-wide documentation and process standardization systems aligned with CMMI Level 3 and ISO standards (9001, 20000-1, 22301, 27001), enabling auditability, reducing onboarding time from 3 months to one month, improving quality across engineering workflows, and driving successful certification while unlocking eligibility for higher-value contracts.
+          - Architected a distributed SCADA system deployed across 51 restricted LAN environments, including a nationwide Network & Security Operations Center (NOC-SOC) for real-time monitoring and incident response.
+          - Reduced feature delivery time by 40% through backend framework standardization in Django.
+          - Reduced test design and automation time by 50% via internal Cypress/Playwright frameworks.
+          - Optimized infrastructure training costs by 96.66% by consolidating 30+ environments into a single server using Pangolin reverse VPN.
+          - Owned technical governance, including architectural standards, coding guidelines, API contracts, and system boundaries.
+          - Led hiring, performance management, and career development for 30+ engineers across multiple teams.
+          - Established team structure, role definitions, ownership boundaries, and delivery models among teams.
+          - Acted as primary escalation point for technical and delivery risks for stakeholders across all projects.
+          - Established 24/7 ITIL-based helpdesk operation with tiered support model and SLAs, integrating an AI-driven helpdesk pipeline to automate ticket classification and enforce SLA-based prioritization, reducing manual triage and improving SLA compliance from 80% to 95%.
+          - Led implementation of an ERP system to digitize and standardize corporate operations, improving operational efficiency and hence reducing costs.
           - Managed delivery risk, scope control, and dependency coordination in every project.
-          - Automated governance insights, ensuring efficient resource allocation and workflow optimization.
-          - Configured observability systems for the company's governed inputs and KPIs.
-          - Partnered with product and leadership to prioritize roadmaps and allocate engineering capacity.
-          - Led database schema redesigns supporting long-term scalability and maintainability.
-          - Architected and developed Django-based backend frameworks, directly contributing to a 40% reduction in feature delivery time.
-          - Directed development of Cypress and Playwright based internal frameworks, which reduced the time needed for tests' design and automation by 50%.
-          - Implemented a Pangolin VPN workflow to reduce the amount of servers needed for the DevOps training process from 30 to just one.
-          - Defined API contracts and systems' boundaries across projects.
-          - Designed solutions including electronics hardware such as PLCs for gate control and cameras for photographic record of passing vehicles.
-          - Worked in the development of a Network Operations Center implementation across 50 Local Area Network restricted locations.
-          #- Implemented OAuth2 SSO in all internal platforms.
-          - Trained personnel, defined support process and setup a 24/7 helpdesk service with tiered support levels and SLAs.
-          - Obtained CMMI level 3, ISO 9001, ISO 20001, ISO 22301 and ISO 27001, providing organization-level certifications, standardizing workflows, and enabling better company contracts.
 
       - company: Ludens Productions
         position: Technical Architect & Project Manager
@@ -67,14 +63,13 @@ cv:
           - Defined company-wide software development processes, achieving CMMI Level 1 maturity.
           - Designed asynchronous processing pipelines using background workers and message-based workflows to decouple users-facing latency from heavy backend processing.
           - Acted as hands-on architect for Django and FastAPI web systems serving mission-critical workflows.
-          - Oversaw delivery and maintenance of 40+ active software projects with long-term helpdesk support.
+          - Oversaw delivery and maintenance of 35+ active software projects with long-term helpdesk support.
           - Participated directly in requirements gathering with stakeholders and decision-makers.
           - Translated extremely complex business and governmental regulatory requirements into clear technical designs and execution plans.
-          - Optimized development and delivery workflows, reducing operational inefficiencies and improving predictability.
           - Executed discovery, construction and delivery of a software for electrical infrastructure monitoring in under one month.
           - Spearheaded the sale, definition, and development of a Flutter mobile application for political elections in the state of Sonora.
           - Architected and led a Flutter mobile application used to send doctor's recipes to their patients.
-          - Supported budget efficiency initiatives through architectural optimization and tooling improvements.
+          - Re-architected development workflows, reducing operational inefficiencies (rework, defects) from 30% to 10% and improving on-time delivery predictability from 60% to 90% in three months time with TDD.
           - Provided consultancy services to Rocky Point's city hall; after an analysis of their technological resources, an optimization plan was conceived and infrastructure costs were reduced by 40%.
 
       - company: Pixelbot
@@ -113,6 +108,33 @@ cv:
           - Multidisciplinary training in software engineering, UI/UX, mobile development, agile project management & media production.
           - Strong foundation in agile methodologies and system design.
           - Exceptional focus on leading teams and achieveing great teamwork during extracurricular activities.
+
+    projects:
+      - name: 'COVeLi'
+        date:
+        start_date: 2024-07
+        end_date: present
+        location: Mexico
+        summary: Vehicle Monitoring System real-time customs' operations with strict latency constraints and operational impact on vehicle flow control in Mexican checkpoints.
+        highlights:
+          - Led design and implementation of COVeLi, a nationwide SCADA system deployed in 51 customs' checkpoints with restricted LAN access and a nationwide Network Operations Center (NOC) for real-time monitoring and incident response.
+          - Designed real-time processing pipeline (~3s constraint) integrating PLCs, magnetic sensors, gate control, and multi-camera systems.
+          - Implemented a real-time decision engine (red/green routing) for vehicle flow control under strict latency constraints.
+          - Built Python-based orchestration handling concurrent image capture, Redis buffering, OCR processing, and PostgreSQL persistence.
+          - Implemented infrastructure monitoring systems to ensure connectivity and operational integrity of PLCs, cameras, sensors, servers, and edge devices across power, network, and control layers.
+          - Architected centralized monitoring platform (Django + Grafana) enabling real-time observability, automated alerting, and geospatial visualization of nationwide checkpoints, including blacklist detection for vehicles and face-recognition.
+      - name: 'Enterprise Transformation & Governance'
+        date: 
+        start_date: 2024-07
+        end_date: present
+        location: Mexico
+        summary: 
+        highlights:
+          - Led enterprise-wide process maturity transformation aligned with CMMI Level 5 and ISO standards, extending standardized best practices across HR, finance, and operations, resulting in improved audit readiness, cross-functional process transformation beyond engineering, improving SLA adherence, delivery consistency, governance and obtaining measurable gains in operational efficiency.
+          - Built organization-wide measurement systems to quantify engineering performance (defect density, downtime, delivery throughput), enabling real-time visibility of engineering performance, exposing inefficiencies and enabling continuous improvement loops.
+          - Established automated observability and governance frameworks to monitor operational KPIs and system health across projects, enabling proactive risk detection as well as resource and workflow optimization.
+          - Correlated technical execution with business outcomes, enabling data-driven decision making at leadership and engineering levels by translating system risks and technical debt into financial and operational impact.
+          - Influenced leadership decisions through quantitative risk analysis, accelerating adoption of standardized engineering processes and improving organizational delivery capacity.
 
     certifications:
       - bullet: CMMI Level 3 (Process Implementation, Assessment, Appraisal and Certified Associate).
